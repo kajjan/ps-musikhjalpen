@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>PS ♥️ Musikhjälpen!!!!!!</title>
+        <title>PS ♥️ Musikhjälpen</title>
         <meta name="description" content="Office donation tracker" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://rsms.me/" />
@@ -33,7 +33,7 @@ export default function Home() {
 
       <main className="p-4">
         <h1 className="text-4xl lg:text-6xl font-bold text-center pb-4">
-          PS <span className="animate-pulse"> ❤️ </span> Musikhjälpen
+          PS <span className="animate-pulse"> ❤️ </span> Musikhjälpen!!!
         </h1>
         <section className="p-2 flex flex-col lg:flex-row justify-center gap-2">
           <Card
