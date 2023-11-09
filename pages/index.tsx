@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>PS ♥️ Musikhjälpen</title>
+        <title>PS ♥️ Musikhjälpen!!!!!!</title>
         <meta name="description" content="Office donation tracker" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://rsms.me/" />
