@@ -3,6 +3,7 @@ const GBG_ID = "5gRIpHSg1jCUTBy4jTWs5b";
 const MALMO_ID = "5gRIpHSg1jCUTBy4jTWs5b";
 const STHLM_ID = "5gRIpHSg1jCUTBy4jTWs5b";
 
+//Hi wills
 export const GBG = {
   name: "Göteborg",
   image: "gbg.webp",
