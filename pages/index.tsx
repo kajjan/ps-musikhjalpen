@@ -33,7 +33,7 @@ export default function Home() {
 
       <main className="p-4">
         <h1 className="text-4xl lg:text-6xl font-bold text-center pb-4">
-          PS <span className="animate-pulse"> ❤️ </span> Musikhjälpen!!!
+          PS <span className="animate-pulse"> ❤️ </span> Musikhjälpen!
         </h1>
         <section className="p-2 flex flex-col lg:flex-row justify-center gap-2">
           <Card
