@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   font-family: "Inter", sans-serif;
 }
@@ -13,5 +14,7 @@
 
 body {
   color: white;
-  background-color: #064e3b;
+  background-image: url("../public/background.png");
+  background-attachment: fixed;
+  background-color: #000000; 
 }
