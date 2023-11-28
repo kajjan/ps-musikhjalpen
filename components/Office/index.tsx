@@ -79,7 +79,7 @@ export default function Office(props: {
           </p>
           <div className="w-full bg-gray-200 rounded-full h-0.5 mt-5 mb-5" />
           <h5 className="text-xl font-semibold tracking-tight text-center" >
-          {props.officeData.name}'s Milestones </h5>
+          {props.officeData.name}s Milestones </h5>
           <p></p>
         </div>
         <div className="flex justify-between text-right pt-2">
