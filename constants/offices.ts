@@ -11,6 +11,16 @@ export const GBG = {
   TOTAL_URL: `${MH_BASE_URL}/${GBG_ID}?fields[]=amount`,
   DONOS_URL: `${MH_BASE_URL}/donations/${GBG_ID}`,
   NUM_OF_DONOS_URL: `${MH_BASE_URL}/donations/${GBG_ID}/number-of-donations`,
+  milestone1: "-",
+  milestone2: "-",
+  milestone3: "-",
+  milestone4: "-",
+  milestone5: "-",
+  milestone6: "-",
+  milestone7: "-",
+  milestone8: "-",
+  milestone9: "-",
+  milestone10: "-",  
 };
 
 export const MALMO = {
@@ -21,6 +31,16 @@ export const MALMO = {
   TOTAL_URL: `${MH_BASE_URL}/${MALMO_ID}?fields[]=amount`,
   DONOS_URL: `${MH_BASE_URL}/donations/${MALMO_ID}`,
   NUM_OF_DONOS_URL: `${MH_BASE_URL}/donations/${MALMO_ID}/number-of-donations`,
+  milestone1: "-",
+  milestone2: "-",
+  milestone3: "-",
+  milestone4: "-",
+  milestone5: "-",
+  milestone6: "-",
+  milestone7: "-",
+  milestone8: "-",
+  milestone9: "-",
+  milestone10: "-",  
 };
 
 export const STHLM = {
@@ -31,4 +51,14 @@ export const STHLM = {
   TOTAL_URL: `${MH_BASE_URL}/${STHLM_ID}?fields[]=amount`,
   DONOS_URL: `${MH_BASE_URL}/donations/${STHLM_ID}`,
   NUM_OF_DONOS_URL: `${MH_BASE_URL}/donations/${STHLM_ID}/number-of-donations`,
+  milestone1: "-",
+  milestone2: "-",
+  milestone3: "-",
+  milestone4: "-",
+  milestone5: "-",
+  milestone6: "-",
+  milestone7: "-",
+  milestone8: "-",
+  milestone9: "-",
+  milestone10: "-",  
 };

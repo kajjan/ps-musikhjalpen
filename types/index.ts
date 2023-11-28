@@ -22,4 +22,14 @@ export type OfficeData = {
   totalAmount: number;
   topD: Donation | null;
   allDonos: Donation[];
+  milestone1: string;
+  milestone2: string;
+  milestone3: string;
+  milestone4: string;
+  milestone5: string;
+  milestone6: string;
+  milestone7: string;
+  milestone8: string;
+  milestone9: string;
+  milestone10: string;
 };

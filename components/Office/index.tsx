@@ -3,6 +3,7 @@ import { useState } from "react";
 import { OfficeData } from "../../types";
 import Modal from "../Modal";
 
+
 export default function Office(props: {
   officeData: OfficeData;
   image: string;
@@ -18,6 +19,7 @@ export default function Office(props: {
   }
 
   return (
+    
     <div className="w-full h-fit max-w-sm rounded-lg shadow-md bg-emerald-800 border-emerald-700 border">
       <Image
         priority
@@ -27,14 +29,13 @@ export default function Office(props: {
         width={400}
         height={400}
       />
-
       <div className="px-5 pb-5">
         <h5 className="text-xl font-semibold tracking-tight">
           {props.officeData.name}
         </h5>
 
         <h3 className="text-3xl font-bold">
-          {props.officeData.totalAmount} SEK
+          {props.officeData.totalAmount} SEK 
         </h3>
 
         <div className="flex justify-between pt-2">
@@ -52,12 +53,12 @@ export default function Office(props: {
                 target="_blank"
                 rel="noreferrer"
               >
-                DONATE
+                DONATE 
+                
               </a>
             </span>
           </button>
         </div>
-
         <div className="pt-2">
           {props.officeData.topD && (
             <p className="text-l">
@@ -76,6 +77,90 @@ export default function Office(props: {
               : "Anonymous"}
             , {props.officeData.allDonos[0].amount} SEK{" "}
           </p>
+          <div className="w-full bg-gray-200 rounded-full h-0.5 mt-5 mb-5" />
+          <h5 className="text-xl font-semibold tracking-tight text-center" >
+          {props.officeData.name}'s Milestones </h5>
+          <p></p>
+        </div>
+        <div className="flex justify-between text-right pt-2">
+          1000kr: 
+          <button>
+            <span className="pl-3 flex ">
+            {props.officeData.milestone1}
+            </span>
+          </button>
+        </div>
+        <div className="flex justify-between pt-2">
+          2000kr: 
+          <button>
+            <span className="pl-3 flex ">
+            {props.officeData.milestone2}  
+            </span>
+          </button>
+        </div>
+        <div className="flex justify-between pt-2">
+          3000kr: 
+          <button>
+            <span className="pl-3 flex text-right">
+            {props.officeData.milestone3}  
+            </span>
+          </button>
+        </div>
+        <div className="flex justify-between pt-2">
+          4000kr: 
+          <button>
+            <span className="pl-3 flex text-right">
+            {props.officeData.milestone4} 
+            </span>
+          </button>
+        </div>
+        <div className="flex justify-between pt-2">
+          5000kr: 
+          <button>
+            <span className="pl-3 flex text-right">
+            {props.officeData.milestone5}
+            </span>
+          </button>
+        </div>
+        <div className="flex justify-between pt-2">
+          6000kr: 
+          <button>
+            <span className="pl-3 flex text-right">
+            {props.officeData.milestone6} 
+            </span>
+          </button>
+        </div>
+        <div className="flex justify-between pt-2">
+          7000kr: 
+          <button>
+            <span className="pl-3 flex text-right">
+            {props.officeData.milestone7}  
+            </span>
+          </button>
+        </div>
+        <div className="flex justify-between pt-2">
+          8000kr: 
+          <button>
+            <span className="pl-3 flex text-right">
+            {props.officeData.milestone8}  
+            </span>
+          </button>
+        </div>
+        <div className="flex justify-between pt-2">
+          9000kr: 
+          <button>
+            <span className="pl-3 flex text-right">
+            {props.officeData.milestone9}  
+            </span>
+          </button>
+        </div>
+        <div className="flex justify-between pt-2">
+          10000kr: 
+          <button>
+            <span className="pl-1 flex text-right"> 
+            {props.officeData.milestone10} 
+            </span>
+          </button>
         </div>
       </div>
       <Modal
