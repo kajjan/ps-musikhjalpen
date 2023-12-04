@@ -40,7 +40,7 @@ export const MALMO = {
   milestone7: "-",
   milestone8: "-",
   milestone9: "-",
-  milestone10: "-",  
+  milestone10: "Office Pizza Party!",  
 };
 
 export const STHLM = {
