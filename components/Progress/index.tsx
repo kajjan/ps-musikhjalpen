@@ -11,13 +11,13 @@ export default function Progress(props: { name: string; value: number }) {
       <div className="w-full bg-gray-200 rounded-full h-4 mb-4">
         <div
           className="bg-rose-600 h-4 rounded-full"
-          style={{ width: `${props.value}%` }}
+          style={{ width: `${props.value}%`}}
         >
           <Image
             style={{
               position: "relative",
               right: 0,
-              left: `${50 + props.value}%`,
+              left: `${40+props.value}%`,
             }}
             src="/horse.gif"
             alt="running horse"
