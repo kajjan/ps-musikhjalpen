@@ -15,7 +15,7 @@ export const GBG = {
   milestone2: "Kajsa bakes cookies",
   milestone3: "-",
   milestone4: "-",
-  milestone5: "-",
+  milestone5: "Ice-bucket challenge: Filip & Daniel",
   milestone6: "Amanda hosts beverage-tasting AW",
   milestone7: "-",
   milestone8: "-",
