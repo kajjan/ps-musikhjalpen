@@ -17,6 +17,7 @@ export default function Progress(props: { name: string; value: number }) {
             style={{
               position: "relative",
               right: 0,
+              top: -15,
               left: `${40+props.value}%`,
             }}
             src="/horse.gif"
