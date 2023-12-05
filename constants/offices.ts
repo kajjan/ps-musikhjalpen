@@ -33,7 +33,7 @@ export const MALMO = {
   NUM_OF_DONOS_URL: `${MH_BASE_URL}/donations/${MALMO_ID}/number-of-donations`,
   milestone1: "-",
   milestone2: "-",
-  milestone3: "-",
+  milestone3: "Cludia, Tim & Madeleine will eat a svenskjävel with kaviar",
   milestone4: "-",
   milestone5: "-",
   milestone6: "-",
