@@ -34,7 +34,7 @@ export const MALMO = {
   milestone1: "-",
   milestone2: "-",
   milestone3: "Cludia, Tim & Madeleine will eat a svenskjävel with kaviar",
-  milestone4: "-",
+  milestone4: "Dip in the sea: Marlon & Eduard",
   milestone5: "-",
   milestone6: "-",
   milestone7: "-",
