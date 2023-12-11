@@ -11,16 +11,16 @@ export const GBG = {
   TOTAL_URL: `${MH_BASE_URL}/${GBG_ID}?fields[]=amount`,
   DONOS_URL: `${MH_BASE_URL}/donations/${GBG_ID}`,
   NUM_OF_DONOS_URL: `${MH_BASE_URL}/donations/${GBG_ID}/number-of-donations`,
-  milestone1: "-",
+  milestone1: "Svenskjävel: Jan & Linn",
   milestone2: "Kajsa bakes cookies",
-  milestone3: "-",
-  milestone4: "-",
+  milestone3: "Amanda & Daan run both bridges",
+  milestone4: "Emelie hosts a celebrity quiz",
   milestone5: "Ice-bucket challenge: Filip & Daniel",
   milestone6: "Amanda hosts beverage-tasting AW",
   milestone7: "-",
   milestone8: "-",
-  milestone9: "-",
-  milestone10: "-",  
+  milestone9: "Office Pizza Party!",
+  milestone10: "Erik will die his har in a crazy color",  
 };
 
 export const MALMO = {
