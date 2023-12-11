@@ -20,7 +20,7 @@ export const GBG = {
   milestone7: "-",
   milestone8: "-",
   milestone9: "Office Pizza Party!",
-  milestone10: "Erik will die his har in a crazy color",  
+  milestone10: "Erik will dye his hair in a crazy color",  
 };
 
 export const MALMO = {
