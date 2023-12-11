@@ -39,7 +39,7 @@ export const MALMO = {
   milestone6: "-",
   milestone7: "-",
   milestone8: "-",
-  milestone9: "-",
+  milestone9: "Angelica hosts a wine-tasting AW",
   milestone10: "Office Pizza Party!",  
 };
 
